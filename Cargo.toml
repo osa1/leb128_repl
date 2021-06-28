@@ -1,0 +1,12 @@
+[package]
+name = "leb128_repl"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "leb128-repl"
+path = "src/main.rs"
+
+[dependencies]
+leb128 = "0.2.4"
+rustyline = "8.2.0"
