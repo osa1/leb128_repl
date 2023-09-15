@@ -4,9 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [[bin]]
-name = "leb128-repl"
+name = "leb128"
 path = "src/main.rs"
-
-[dependencies]
-leb128 = "0.2.4"
-rustyline = "8.2.0"
